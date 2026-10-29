@@ -22,3 +22,7 @@ Run the tests with **Test > Run All Tests** (or `dotnet test`). Then start your 
 - `GetFromJsonAsync`, `PostAsJsonAsync`, `PutAsJsonAsync` and `ReadFromJsonAsync` come from `using System.Net.Http.Json;`. `HttpStatusCode` comes from `using System.Net;`.
 - For methods where 404 is a normal answer, use `GetAsync`, `PutAsJsonAsync` or `DeleteAsync`, check for `HttpStatusCode.NotFound` first, then call `response.EnsureSuccessStatusCode()` to throw for anything else that isn't a success.
 - `LowStockAsync` can use your own `GetAllAsync`, then LINQ. `p.UnitsInStock ?? 0` treats a missing stock figure as 0.
+
+## Hand it in
+
+When it works, push your solution to a public repo of your own on GitHub, then paste that repo's address into **Submit your exercise** on the lesson page at [ask-codey.com](https://www.ask-codey.com). That's what completes the lesson. The lesson page shows the Git commands, step by step.
