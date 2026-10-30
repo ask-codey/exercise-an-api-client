@@ -1,6 +1,6 @@
 using NorthwindClient;
 
-// The products API from Practice: Northwind Web API must be running. Use its address here.
+// The products API from Exercise: Northwind Web API must be running. Use its address here.
 using HttpClient http = new HttpClient { BaseAddress = new Uri("http://localhost:5179/") };
 ProductClient products = new ProductClient(http);
 

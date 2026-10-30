@@ -1,8 +1,8 @@
-# Practice: an API Client
+# Exercise: an API Client
 
-Practice code for the lesson **Practice: an API Client** in the C# Full-Stack Bootcamp on [ask-codey.com](https://www.ask-codey.com).
+Exercise code for the lesson **Exercise: an API Client** in the C# Full-Stack Bootcamp on [ask-codey.com](https://www.ask-codey.com).
 
-Your products API from *Practice: Northwind Web API* needs a client: a C# class that other programs can use to read and change products without knowing anything about HTTP. You'll write `ProductClient`.
+Your products API from *Exercise: Northwind Web API* needs a client: a C# class that other programs can use to read and change products without knowing anything about HTTP. You'll write `ProductClient`.
 
 ## What's here
 
@@ -15,7 +15,7 @@ Your products API from *Practice: Northwind Web API* needs a client: a C# class 
 
 Finish each method of `ProductClient`: `GetAllAsync`, `GetByIdAsync`, `AddAsync`, `UpdateAsync`, `DeleteAsync` and `LowStockAsync`.
 
-Run the tests with **Test > Run All Tests** (or `dotnet test`). Then start your products API from the last practice, check the address at the top of `Program.cs`, and run this program with **Ctrl+F5**.
+Run the tests with **Test > Run All Tests** (or `dotnet test`). Then start your products API from the last exercise, check the address at the top of `Program.cs`, and run this program with **Ctrl+F5**.
 
 ## Tips
 

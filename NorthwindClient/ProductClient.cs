@@ -1,6 +1,6 @@
 namespace NorthwindClient;
 
-// Calls the products API from Practice: Northwind Web API.
+// Calls the products API from Exercise: Northwind Web API.
 //
 // Requirements:
 // - The client is given its HttpClient, with the API's base address already set. It never makes its own.
